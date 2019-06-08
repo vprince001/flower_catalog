@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Guest Book</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="./style/main.css" />
+</head>
+<body>
+  <div class="heading">
+      
+    <h1><a href="/" style="margin-left:2px;"><<</a>Guest Book</h1>
+  </div>
+  <div>
+    <div style="font-size: 30px; font-weight: bold">Leave a comment</div>
+    <form method="POST" action="/guest_book.html">
+      <label>Name: </label>
+      <input class="input" type="text" placeholder="Enter Your Name Here" name="name"> <br/>
+      <label>Comment: </label>
+      <textarea class="input" type="text" placeholder="Enter Your Comment Here" rows="4" cols="30" name="comment"></textarea><br/>
+      <input type="Submit" value="Submit">
+    </form>
+    <div>
+      ___COMMENTS___
+    </div>
+</body>
+</html>

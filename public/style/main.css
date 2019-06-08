@@ -1,0 +1,28 @@
+.headline {
+  border-top: 1px solid black;
+  border-bottom: 3px solid black;
+  color: orange;
+  text-align: right;
+  margin-right: 100px;
+}
+
+.main-image {
+  height: 100px;
+  width: 100px;
+  margin-left: 100px;
+  display: block;
+}
+
+.heading{
+  font-size: 20px;
+  text-align: center;
+  color: orange;
+}
+
+form{
+  font-size: 25px;
+}
+
+.input{
+  font-size: 20px; 
+}
